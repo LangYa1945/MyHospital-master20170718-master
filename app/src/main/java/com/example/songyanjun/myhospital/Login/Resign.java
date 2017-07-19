@@ -50,6 +50,7 @@ public class Resign extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+
             }
         });
         getSupportActionBar().setDisplayShowTitleEnabled(false);

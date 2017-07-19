@@ -70,7 +70,7 @@
                 <AutoCompleteTextView
                     android:id="@+id/username"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38dp"
                     android:layout_marginBottom="8dp"
 
                     android:hint="@string/username"
@@ -102,7 +102,7 @@
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="38dp"
                     android:layout_marginBottom="8dp"
                     android:hint="@string/prompt_password"
                     android:imeActionId="@+id/login"
@@ -128,7 +128,7 @@
                 android:id="@+id/username_login_button"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="40dp"
                 android:background="@drawable/botton_shape"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
@@ -143,7 +143,7 @@
                 android:id="@+id/username_register_button"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="40dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"

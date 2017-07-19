@@ -75,7 +75,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Login.this, Resign.class));
-                Login.this.finish();
+               // Login.this.finish();
             }
         });
         mLoginFormView = findViewById(R.id.login_form);
